@@ -1,7 +1,7 @@
 let index = 0;
 const slides = document.querySelectorAll('.slide');
 let slideInterval;
-const slideTime = 30000; // 30 секунд между слайдами
+const slideTime = 5000; // 30 секунд между слайдами
 
 function showSlide(newIndex = null) {
     // Если указан индекс, используем его, иначе переходим к следующему
